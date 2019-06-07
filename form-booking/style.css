@@ -1,0 +1,136 @@
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px 20px 20px;
+    border: #3333 solid 1px;
+    background:
+            linear-gradient(
+                rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.7)
+            ),
+            url("image/background-image.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+input:focus {
+    background: #eaeaea;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
+.form-group__legend {
+    color: #60e6c5;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 16px;
+}
+
+.field {
+    position: relative;
+    border-width: 0;
+    border-radius: 20px;
+    outline: none;
+    margin: 0;
+    padding: 10px 15px;
+    background: #e6e6e6;
+}
+
+.contact-details__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-details__item:last-child {
+    margin-bottom: 0;
+}
+
+.item-label {
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+.booking-form__room {
+    padding: 20px 16px;
+}
+
+.room-type {
+    display: flex;
+    align-items: center;
+}
+
+.room-type__select {
+    cursor: pointer;
+    padding: 10px 15px;
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    background: #e6e6e6;
+    color: #7b7b7b;
+    margin-bottom: 15px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,.2);
+}
+
+.booking-dete__calendar {
+    background: #e6e6e6;
+    color: #7b7b7b;
+    border-radius: 20px;
+    margin-right: 15px;
+    padding: 5px 7px;
+}
+
+.booking-dete__calendar:last-child {
+    margin-right: 0;
+}
+
+.booking-form__notifications {
+    display: flex;
+    align-items: center;
+}
+.notifications-checkbox {
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+}
+.notifications-text {
+    color: #ffffff;
+}
+
+.booking-form__submit {
+    padding: 10px 0;
+    border-width: 0;
+    border-radius: 20px;
+    display: block;
+    width: 120px;
+    margin: 25px auto 0;
+    background: #60e6c5;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    text-transform: uppercase;
+}

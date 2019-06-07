@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <form action="" class="booking-form">
+        <h1 class="booking-form__title">Бронирование отеля</h1>
+        <div class="booking-form__contact-details form-group">
+            <fieldset class="contact-details">
+                <legend class="form-group__legend">Контактная информация</legend>
+                <div class="contact-details__item">
+                    <label  class="item-label" for="name">Имя: </label>
+                    <input required
+                           id="name"
+                           type="text"
+                           class="contact-details__name field"
+                           placeholder="Иван">
+                    </input>
+                </div>
+                <div class="contact-details__item">
+                    <label class="item-label" for="lastname">Фамилия:</label>
+                    <input required
+                           id="lastname"
+                           type="text"
+                           class="contact-details__surname field"
+                           placeholder="Иванов">
+                    </input>
+                </div>
+                <div class="contact-details__item">
+                    <label  class="item-label" for="phone">Мобильный:</label>
+                    <input required
+                           id="phone"
+                           type="tel"
+                           class="contact-details__phone field"
+                           placeholder="8-999-999-99-99"></input>
+                </div>
+                <div class="contact-details__item">
+                    <label class="item-label" for="email">Адрес электронной почты:</label>
+                    <input type="email"
+                           id="email"
+                           class="item-email field"
+                           placeholder="email@email.ru"></input>
+                </div>
+            </fieldset>
+        </div>
+        <fieldset class="booking-form__room form-group">
+            <legend class="form-group__legend">Информация по бронированию</legend>
+            <div class="room-type">
+                <span class="room-type__text item-label">Тип комнаты:</span>
+                <select  class="room-type__select" name="room">
+                    <option value="single">Одноместный</option>
+                    <option value="double">Двуместный</option>
+                    <option value="triple">Трехместный</option>
+                </select>
+            </div>
+            <div class="booking-date">
+                <span class="booking-dete__text item-label">Дата заезда:</span>
+                <input class="booking-dete__calendar" type="date">
+                <span class="booking-dete__text item-label">Дата отъезда:</span>
+                <input class="booking-dete__calendar" type="date">
+            </div>
+        </fieldset>
+        <div class="booking-form__notifications">
+            <input class="notifications-checkbox" required type="checkbox">
+            <span class="notifications-text">Я хочу получать <b>уведомления</b> о новых предложениях и акциях</span>
+        </div>
+        <button class="booking-form__submit"
+                type="submit">Отправить</button>
+    </form>
+</body>
+</html>
