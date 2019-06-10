@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    background: #cccccc;
+}
+
+.controls {
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    transform: translateY(100%) translateY(-5px);
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.buttons button {
+    background: none;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.timer {
+    color: #ffffff;
+    font-size: 12px;
+}
+.buttons--play {
+    content: "\f144";
+}
+
+.buttons--pause {
+    content: '\f28b';
+}
+
+.progress-bar {
+    height: 12px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000000;
+}
+
+.progress-line {
+    height: 10px;
+    background-color: red;
+}
+
+.volume,
+.volume__wrap {
+    margin: 0;
+}

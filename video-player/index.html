@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Player</title>
+    <script src="jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+<div class="container">
+    <video id="videoPlayer"
+           width="400" height="300"
+           class="video-player"
+           poster=" img/media/vorona.jpg">
+        <source src=" img/media/vorona.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+        <source src=" img/media/vorona.ogv" type='video/ogg; codecs="theora, vorbis"'>
+        <source src=" img/media/vorona.webm" type='video/webm; codecs="vp8, vorbis"'>
+        <track src="vorona.vtt" label="Русские субтитры" kind="subtitles" srclang="ru" default >
+        <a href=" img/media/vorona.mp4">Скачайте видео</a>.
+    </video>
+    <div class="controls">
+        <div class="progress-bar">
+            <div class="progress-line"></div>
+        </div>
+        <div class="buttons">
+            <span id="currentTime" class="timer">2:30/4.58</span>
+            <button class="buttons--play" onclick="videoPlay()" type="button"><img src="img/icons/play.png"></button>
+            <button class="buttons--pause" onclick="videoPause()" type="button"><img src="img/icons/pause.png"></button>
+            <button class="buttons-volume"><img src="img/icons/speaker.png" id="speaker"></button>
+            <input type="range" id="volume" min="0" max="1" value="0.40" step="0.20" onchange="changeVolume()"/>
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
