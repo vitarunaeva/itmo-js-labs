@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<main class="main">
+    <div class="products">
+        <div class="products__item product">
+            <div class="product__title">hdd</div>
+            <div class="product__price">80</div>
+            <div class="product__add">добавить в корзину</div>
+        </div>
+        <div class="products__item product">
+            <div class="product__title">sdd</div>
+            <div class="product__price">150</div>
+            <div class="product__add">добавить в корзину</div>
+        </div>
+        <div class="products__item product">
+            <div class="product__title">usbdrive</div>
+            <div class="product__price">8</div>
+            <div class="product__add">добавить в корзину</div>
+        </div>
+    </div>
+
+    <div class="cart">
+        <div class="cart__showcase"></div>
+        <div class="cart__footer">
+            <button class="cart__clear">Очистить корзину</button>
+            <div class="cart__amount">Количество товаров: <span class="cart__amount-block">0</span></div>
+            <div class="cart__budget">Бюджет: $<span class="cart__budget-block">350</span></div>
+        </div>
+    </div>
+</main>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .products {
+        display: flex;
+    }
+
+    .product {
+        border: 1px solid blue;
+    }
+
+    .cart {
+        width: 600px;
+        min-height: 300px;
+        background: #000;
+        padding: 15px;
+        border-radius: 5px;
+
+    }
+
+    .cart__showcase {
+        width: 100%;
+        min-height: 215px;
+        margin-bottom: 15px;
+        background-color: #fff;
+    }
+
+    .cart__showcase.hover {
+        background-color: red;
+    }
+
+    .cart__footer {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+        background-color: yellow;
+        padding: 10px 15px;
+    }
+
+    .cart__amount {
+        margin-left: auto;
+        margin-right: 10px;
+    }
+</style>
+
+<script src="jquery-1.12.4.js"></script>
+<script src="jquery-ui.js"></script>
+<script src="cart.js"></script>
+</body>
+</html>
