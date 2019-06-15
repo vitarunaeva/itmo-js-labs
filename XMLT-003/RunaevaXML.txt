@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- подключили dtd сразу в xml. вставляем вначале, после объявления версии -->
+<!DOCTYPE webcompetencies [
+  <!ELEMENT webcompetencies (competency+)>
+  <!-- корневой элемент содержит Элемент. + - их может быть несколько -->
+  <!ELEMENT competency (technologies, skills?, value, nearCompetency?)>
+  <!-- данный элемент содержит другие элементы. ? -может не содержать данный элемент -->
+  <!ELEMENT technologies (#PCDATA)>
+  <!-- #PCDATA - анализатор обязан разбирать то, что находится внутри этого элемента. -->
+  <!ELEMENT skills (#PCDATA)>
+  <!ELEMENT value (#PCDATA)>  
+  <!ELEMENT nearCompetency (#PCDATA)> 
+]>
+
+<!--
+<!DOCTYPE webcompetencies SYSTEM "val.dtd">
+-->
+
+  <webcompetencies>
+
+    <competency>
+      <technologies>HTML</technologies>
+      <skills>BEM</skills>
+      <value>high</value>	
+    </competency>
+
+    <competency>
+      <technologies>CSS</technologies>
+      <skills>SCSS</skills>
+      <value>middle</value>
+    </competency>
+
+    <competency>
+      <technologies>JS</technologies>
+       <skills>JQuery, Angular</skills>
+      <value>low</value>
+      <nearCompetency>NodeJS</nearCompetency>
+    </competency>
+
+    <competency>
+      <technologies>NodeJS</technologies>
+      <skills>Express</skills>
+      <value>low</value>
+    </competency>
+
+    <competency>
+      <technologies>DB</technologies>
+      <skills>MySQL, MongoDB</skills>
+      <value>low</value>
+    </competency>
+
+    <competency>
+      <technologies>CMS</technologies>
+      <skills>Drupal</skills>
+      <value>low</value>
+    </competency>
+
+    <competency>
+      <technologies>Git</technologies>
+      <value>low</value>
+      <nearCompetency>GitHub</nearCompetency>
+    </competency>
+
+    <competency>
+      <technologies>GitHub</technologies>
+      <value>middle</value>
+    </competency>
+
+    <competency>
+      <technologies>Gulp</technologies>
+      <value>middle</value>
+    </competency>
+
+   <competency>
+      <technologies>Webpack</technologies>
+      <value>low</value>
+    </competency>
+
+  </webcompetencies>
+
+
+
