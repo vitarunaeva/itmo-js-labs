@@ -73,6 +73,10 @@
   ### [Задание](http://kodaktor.ru/cnvs/lr_canvas_rates.pdf)
   ### [Исходный код](https://kodaktor.ru/g/10bf370_db7fd)
   ### [Флаги на canvas](https://github.com/vitarunaeva/itmo-js-labs/tree/master/canvas)
+  
+  
+  * ## [Курсовая работа](http://kodaktor.ru/cnvs/lr_canvas_rates.pdf)
+  
 
 
 
