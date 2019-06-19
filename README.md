@@ -4,7 +4,7 @@
 # Список лабораторных работ:
 * ## Корзина
   ### [Задание](https://kodaktor.ru/g/cart)
-  ### [Исходный код] (https://github.com/vitarunaeva/itmo-js-labs/tree/master/cart)
+  ### [Исходный код](https://github.com/vitarunaeva/itmo-js-labs/tree/master/cart)
   ### [Веб-приложение] ()
 * ## XMLT-001, XMLT-002  Разработка языка разметки
   ### [Задание](https://kodaktor.ru/g/xml_intro)
@@ -36,7 +36,7 @@
   ### [Веб-приложение](https://kodaktor.ru/g/startask_3fd3d)
 * ## TYPES_OUT Типизация массивов в JS
   ### [Задание](https://kodaktor.ru/types_out)
-  ### [Веб-приложение] (https://kodaktor.ru/g/types_a34ea)
+  ### [Веб-приложение](https://kodaktor.ru/g/types_a34ea)
 * ## IPS_TASK Обработка данных из массива в JS
   ### [Задание](https://kodaktor.ru/g/ips_task)
   ### [Исходный код](https://github.com/vitarunaeva/itmo-js-labs/tree/master/ips)
