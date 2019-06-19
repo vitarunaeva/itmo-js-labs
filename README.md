@@ -1,11 +1,11 @@
-# [Ссылка на GitHub Pages](#)
+# [Ссылка на GitHub Pages](https://vitarunaeva.github.io/itmo-js-labs/)
 # Автор: Рунаева Виолетта (с)2019
 ---
 # Список лабораторных работ:
 * ## Корзина
   ### [Задание](https://kodaktor.ru/g/cart)
   ### [Исходный код](https://github.com/vitarunaeva/itmo-js-labs/tree/master/cart)
-  ### [Веб-приложение] ()
+  ### [Веб-приложение](https://vitarunaeva.github.io/cart/)
 * ## XMLT-001, XMLT-002  Разработка языка разметки
   ### [Задание](https://kodaktor.ru/g/xml_intro)
   ### [Исходный код](https://github.com/vitarunaeva/itmo-js-labs/tree/master/XMLT-003)
