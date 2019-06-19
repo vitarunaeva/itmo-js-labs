@@ -28,7 +28,7 @@
   ### [Задание](https://kodaktor.ru/g/func)
   ### [FUNC-002](https://kodaktor.ru/g/func_1d118)
   ### [FUNC-003](https://kodaktor.ru/g/func_57497)
-  ### [FUNC-008 Замыкание](https://kodaktor.ru/?!=func_e4857)
+  ### [FUNC-008 Замыкание](https://kodaktor.ru/g/func_e4857)
 
 * ## IIFE-001 Задание на IIFE
   ### [Задание](https://kodaktor.ru/g/iife)
@@ -39,7 +39,7 @@
   ### [Веб-приложение] (https://kodaktor.ru/g/startask_3fd3d)
 * ## TYPES_OUT Типизация массивов в JS (НЕ СДЕЛАНО)
   ### [Задание](https://kodaktor.ru/types_out)
-  ### [Веб-приложение] ()
+  ### [Веб-приложение] (https://kodaktor.ru/g/types_a34ea)
 * ## IPS_TASK Обработка данных из массива в JS
   ### [Задание](https://kodaktor.ru/g/ips_task)
   ### [Исходный код] (https://github.com/vitarunaeva/itmo-js-labs/tree/master/ips)
@@ -51,22 +51,33 @@
   ### [Задание](https://kodaktor.ru/g/evnt_001)
 * ## EVNT_002 События: кастомные события, коммуникация компонентов
   ### [Задание](https://kodaktor.ru/evnt_002)
-  ### [Исходный код] (https://kodaktor.ru/?!=custom_170f8)
+  ### [Исходный код] (https://kodaktor.ru/g/custom_170f8)
 * ## EVNT_003 События: кастомные компоненты НЕ СДЕЛАНО
   ### [Задание](https://kodaktor.ru/evnt_003)
-* ## BABL_001 Транспиляция: поля класса НЕ СДЕЛАНО
+* ## BABL_001 Транспиляция: поля класса
   ### [Задание](https://kodaktor.ru/babl_001)
+  ### [Исходный код] (https://kodaktor.ru/g/babl_d3107)
 * ## BABL_002 Транспиляция: bind
   ### [Задание](https://kodaktor.ru/babl_002)
   ### [Исходный код] (https://kodaktor.ru/bind02032018_c11a0)
-* ## ITER-001 Итерабельность НЕ СДЕЛАНО
+* ## ITER-001 Итерабельность
   ### [Задание](https://kodaktor.ru/iter_001)
+  ### [Исходный код] (https://kodaktor.ru/g/iter_c7800)
 * ## задания по react, vue, material design
   ### [Задание. введение и двустороннее связывание на React](https://kodaktor.ru/frmw_001 )
   ### [Веб-приложение] (https://kodaktor.ru/g/react_state_b9774)
+  ### [Задание. введение во Vue](https://kodaktor.ru/frmw_002)
+  ### [Веб-приложение] (https://kodaktor.ru/g/vue_99dbf)
+  ### [Задание. Material UI](  https://kodaktor.ru/frmw_007)
+  ### [Веб-приложение] (https://github.com/vitarunaeva/itmo-js-labs/tree/master/material)
 * ## MIXER
   ### [Задание](https://kodaktor.ru/g/mixer)
   ### [Исходный код] (https://github.com/vitarunaeva/itmo-js-labs/tree/master/mixer)
+* ## CANV_001
+  ### [Задание](http://kodaktor.ru/cnvs/lr_canvas_rates.pdf)
+  ### [Исходный код] (https://kodaktor.ru/g/10bf370_db7fd)
+  ### [Флаги на canvas] (https://github.com/vitarunaeva/itmo-js-labs/tree/master/canvas)
+
 
 
 
