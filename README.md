@@ -42,7 +42,7 @@
   ### [Исходный код](https://github.com/vitarunaeva/itmo-js-labs/tree/master/ips)
 * ## ASYNC-TASKS  Промисы и for await of
   ### [Задание](https://kodaktor.ru/async_tasks)
-  ### [Исходный код](https://kodaktor.ru/async_a4d3c)
+  ### [Исходный код](https://kodaktor.ru/g/async_fb0ef)
 * ## EVNT_001 События: управление слушателями НЕ СДЕЛАНО
   ### [Задание](https://kodaktor.ru/g/evnt_001)
 * ## EVNT_002 События: кастомные события, коммуникация компонентов
