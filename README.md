@@ -10,8 +10,8 @@
   ### [Задание](https://kodaktor.ru/g/xml_intro)
   ### [Исходный код] (https://github.com/vitarunaeva/itmo-js-labs/tree/master/XMLT-003)
 * ## XMLT-003 Считывание из XML-документа
-  ### [Исходный код] (https://kodaktor.ru/?!=xmlt_c1fc5)
-  ### [Веб-приложение] https://kodaktor.ru/g/xmlt_c1fc5)
+  ### [Исходный код] (https://kodaktor.ru/xmlt_c1fc5)
+  ### [Веб-приложение] (https://kodaktor.ru/g/xmlt_c1fc5)
 * ## JSON
   ### [Задание](https://kodaktor.ru/g/json_intro)
   ### [Исходный код] (https://kodaktor.ru/myjson_e477e)
@@ -28,7 +28,7 @@
   ### [Задание](https://kodaktor.ru/g/func)
   ### [FUNC-002](https://kodaktor.ru/g/func_1d118)
   ### [FUNC-003](https://kodaktor.ru/g/func_57497)
-  ### [FUNC-008 Замыкание (НЕ СДЕЛАНО)](https://kodaktor.ru/g/func_4374b)
+  ### [FUNC-008 Замыкание](https://kodaktor.ru/?!=func_e4857)
 
 * ## IIFE-001 Задание на IIFE
   ### [Задание](https://kodaktor.ru/g/iife)
@@ -44,18 +44,21 @@
   ### [Задание](https://kodaktor.ru/g/ips_task)
   ### [Исходный код] (https://github.com/vitarunaeva/itmo-js-labs/tree/master/ips)
 
-* ## ASYNC-TASKS  Промисы и for await of НЕ СДЕЛАНО
+* ## ASYNC-TASKS  Промисы и for await of
   ### [Задание](https://kodaktor.ru/async_tasks)
+  ### [Исходный код] (https://kodaktor.ru/async_a4d3c)
 * ## EVNT_001 События: управление слушателями НЕ СДЕЛАНО
   ### [Задание](https://kodaktor.ru/g/evnt_001)
-* ## EVNT_002 События: кастомные события, коммуникация компонентов НЕ СДЕЛАНО
+* ## EVNT_002 События: кастомные события, коммуникация компонентов
   ### [Задание](https://kodaktor.ru/evnt_002)
+  ### [Исходный код] (https://kodaktor.ru/?!=custom_170f8)
 * ## EVNT_003 События: кастомные компоненты НЕ СДЕЛАНО
   ### [Задание](https://kodaktor.ru/evnt_003)
 * ## BABL_001 Транспиляция: поля класса НЕ СДЕЛАНО
   ### [Задание](https://kodaktor.ru/babl_001)
-* ## BABL_002 Транспиляция: bind НЕ СДЕЛАНО
+* ## BABL_002 Транспиляция: bind
   ### [Задание](https://kodaktor.ru/babl_002)
+  ### [Исходный код] (https://kodaktor.ru/bind02032018_c11a0)
 * ## ITER-001 Итерабельность НЕ СДЕЛАНО
   ### [Задание](https://kodaktor.ru/iter_001)
 * ## задания по react, vue, material design
